@@ -1,0 +1,35 @@
+@font-face {
+    font-family: 'Huglove';
+    src: url('assets/fonts/Huglove.ttf');
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+p{
+    font-family: Huglove;
+}
+
+#Yes{
+    background-color:#00c851;
+    padding: 8px 24px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    color: white;
+}
+#No{
+    background-color:#e96464;
+    padding: 8px 24px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    color: white;
+
+}
+p{
+    
+}
