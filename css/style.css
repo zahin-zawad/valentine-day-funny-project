@@ -1,14 +1,17 @@
 @font-face {
     font-family: 'Huglove';
-    src: url('assets/fonts/Huglove.ttf');
+    src: url(../assets/fonts/Huglove.ttf);
 }
 
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 p{
     font-family: Huglove;
+    font-size: 2.2rem;
+    text-align: center;
 }
 
 #Yes{
@@ -19,6 +22,7 @@ p{
     border-radius: 4px;
     cursor: pointer;
     color: white;
+    margin-right: 13px;
 }
 #No{
     background-color:#e96464;
@@ -30,6 +34,27 @@ p{
     color: white;
 
 }
-p{
+body{
+    margin: 64px 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+#bear_jumping{
+    display: flex;
+    max-width: 100%;
+    vertical-align: middle;
+    align-items: center;
+    justify-content: center;
+    height: auto;
     
+
+}
+.buttons{
+    margin-top: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
