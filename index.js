@@ -82,8 +82,8 @@ button_no.addEventListener('click', function(){
     if(index == 11){
         
         button_yes.style.fontSize = "200px";
-        button_yes.style.width = "100%";
-        button_yes.style.height = "100%";
+        button_yes.style.width = "100em";
+        button_yes.style.height = "100em";
         button_yes.style.position = "absolute";
         boody.style.margin = "0";
         
